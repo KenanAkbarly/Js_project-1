@@ -1,6 +1,6 @@
 let randomNumber =Math.trunc(Math.random() *10)
-alert('Play Game')
-let numberOfAttempts = 0;
+alert('Play Game');
+let numberOfAttempts = 1;
 let answer=parseInt(prompt("Enter Number: "));
 while(answer !==randomNumber){
     numberOfAttempts ++;
